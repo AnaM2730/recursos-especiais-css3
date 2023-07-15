@@ -1,0 +1,28 @@
+#caixa{
+    width: 300px;
+    height: 300px;/* 
+    background: url(../Aula-3/img/camera.png); *//* 
+    background: linear-gradient(96deg, blue, violet, purple, black); */
+    background: radial-gradient(grey, black );
+}
+
+#caixa h1{/* 
+    background:rgba(255, 255, 255, 0.5); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
