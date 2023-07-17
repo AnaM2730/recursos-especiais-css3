@@ -1,0 +1,19 @@
+header{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+nav{
+    border: 1px;
+    padding: 10px;
+    background: #ccc;
+}
+
+nav ul{
+    list-style: none;
+}
+
+footer{
+    background: rgb(171, 171, 171);
+}
+
