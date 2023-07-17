@@ -1,0 +1,102 @@
+/* animações */
+/* @-webkit-keyframes animado-caixa{
+    
+    from{
+        background: pink;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } /* estilo inicial 
+    
+    
+    to{
+        background: purple;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    } /* estilo final 
+}
+
+@-moz-keyframes animado-caixa{
+    
+    from{
+        background: pink;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } /* estilo inicial 
+    
+    
+    to{
+        background: purple;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    } /* estilo final 
+}
+
+@-o-keyframes animado-caixa{
+    
+    from{
+        background: pink;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } /* estilo inicial 
+    
+    
+    to{
+        background: purple;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }  estilo final 
+} */
+
+@keyframes animado-caixa{
+    
+    from{
+        background: pink;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    } /* estilo inicial */
+    
+    
+    to{
+        background: purple;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    } /* estilo final */
+}
+
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    animation-name: animado-caixa;
+    animation-duration: 2s;
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: pink;
+    position: relative;
+    /* -webkit-animation-name: animado-caixa;
+     -moz-animation-name: animado-caixa;
+     -o-animation-name: animado-caixa;
+     animation-name: animado-caixa;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;  repetiçoes 
+    animation-direction: alternate;
+     */
+    animation: animado-caixa 2s 2s 5 alternate;
+   /*  -webkit-animation: animado-caixa 2s 2s 5 alternate;
+    -moz-animation: animado-caixa 2s 2s 5 alternate;
+    -o-animation: animado-caixa 2s 2s 5 alternate; */
+}
