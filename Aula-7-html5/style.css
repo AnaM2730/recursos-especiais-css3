@@ -14,6 +14,21 @@ nav ul{
 }
 
 footer{
-    background: rgb(171, 171, 171);
+    background: rgb(79, 79, 79);
 }
+
+article{
+    background: rgb(220, 220, 220);
+    padding: 10px;
+}
+
+section{
+    border: 1px solid dotted #fff;
+}
+
+aside{
+    background: rgb(112, 112, 198);
+}
+
+
 
