@@ -18,6 +18,12 @@ a:hover{
     color: #227115;
 }
 
+/* LOGO */
+
+#logo h1{
+    float: left;
+}
+
 #logo a{
     width: 248px;
     height: 21px;
@@ -53,10 +59,17 @@ nav ul li a:hover{
     border-bottom: 1px solid #535858;
 }
 
+/* PRINCIPAL */
+#conteudo{
+    float: left;
+    width: 710px;
+}
 
-
-
-
+aside{
+    width: 350px;
+    float: right;
+    background: #ede7eb;
+}
 
 
 
