@@ -1,8 +1,12 @@
 #conteudo{
     background: #dcdcdc;
     height: 600px;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     /*display: block;  item abaixo do outro */
-    display: flex; /* item ao lado do outro */
+     /* item ao lado do outro */
 
 
     /* row , row-reverse , column , column-reverse */
@@ -22,26 +26,40 @@
     /* stretch , center , flex-start , flex-end , baseline */
     /* align-items: baseline;  */
 
-
 }
 
 .item{
-    width: 100px;
+   /*  width: 200px; */
     height: 100px;
     background: white;
     margin: 10px;
     border: 1px solid grey;
-    flex-grow: 1;
 
+     /* define a proporção de espaço ocupado por um item */
+    flex-grow: 0;
+
+    /* Define a capacidade de redução de tamanho do item */
+    flex-shrink: 1;
+
+    /* Indica o tamanho da inicial do flex item antes da distribuição do espaço restante */
+    flex-basis: 100px;
 }
 
 .item1{
-     flex-grow:1;   /* define a proporção de espaço ocupado por um item */
+    /*  flex-grow:1; */  
+    /* flex-shrink: 1; */
 }
 
 .item2{
-     flex-grow:2;
+     flex-grow:2; 
+     /* flex-shrink: 2; */
+    }
+
+.item3{
+     flex-grow:2; 
+   /*  flex-shrink: 5; */
 }
+
 
 
 /* .ordem1{
