@@ -6,29 +6,48 @@
 
 
     /* row , row-reverse , column , column-reverse */
-    flex-direction: row; /* define as direções que quer alinhar os elementos */
+    /* flex-direction: row; */ /* define as direções que quer alinhar os elementos */
 
 
     /* define quebra de layout */   
     /* nowrap , wrap , wrap-reverse */
    /* flex-wrap: nowrap;  não vai quebrar as linhas, vão ficar apertados */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 
 
     /* flex-start , flex-end , center , space-between , space-around */
     /*justify-content: flex-end; ficam colado no canto superior direito */
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
 
     /* stretch , center , flex-start , flex-end , baseline */
-    align-items: baseline; 
+    /* align-items: baseline;  */
 
 
 }
 
 .item{
-    /* width: 100px;
-    height: 100px; */
+    width: 100px;
+    height: 100px;
     background: white;
     margin: 10px;
     border: 1px solid grey;
 }
+
+/* .ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.ordem{
+    order: -1;
+}
+
+ */
+
