@@ -1,12 +1,19 @@
 #conteudo{
     background: #dcdcdc;
-    height: 400px;
+    width: 230px;
+    height: 600px;
     /*display: block;  item abaixo do outro */
     display: flex; /* item ao lado do outro */
 
 
     /* row , row-reverse , column , column-reverse */
-    flex-direction: column; /* define as direções que quer alinhar os elementos */
+    flex-direction: row; /* define as direções que quer alinhar os elementos */
+
+
+    /* define quebra de layout */   
+    /* nowrap , wrap , wrap-reverse */
+   /* flex-wrap: nowrap;  não vai quebrar as linhas, vão ficar apertados */
+    flex-wrap: wrap;
 }
 
 .item{
