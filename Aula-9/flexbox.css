@@ -1,6 +1,5 @@
 #conteudo{
     background: #dcdcdc;
-    width: 230px;
     height: 600px;
     /*display: block;  item abaixo do outro */
     display: flex; /* item ao lado do outro */
@@ -13,13 +12,23 @@
     /* define quebra de layout */   
     /* nowrap , wrap , wrap-reverse */
    /* flex-wrap: nowrap;  não vai quebrar as linhas, vão ficar apertados */
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+
+
+    /* flex-start , flex-end , center , space-between , space-around */
+    /*justify-content: flex-end; ficam colado no canto superior direito */
+    justify-content: space-around; 
+
+    /* stretch , center , flex-start , flex-end , baseline */
+    align-items: baseline; 
+
+
 }
 
 .item{
+    /* width: 100px;
+    height: 100px; */
     background: white;
-    height: 100px;
-    width: 100px;
     margin: 10px;
     border: 1px solid grey;
 }
