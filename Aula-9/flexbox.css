@@ -31,7 +31,18 @@
     background: white;
     margin: 10px;
     border: 1px solid grey;
+    flex-grow: 1;
+
 }
+
+.item1{
+     flex-grow:1;   /* define a proporção de espaço ocupado por um item */
+}
+
+.item2{
+     flex-grow:2;
+}
+
 
 /* .ordem1{
     order: 1;
